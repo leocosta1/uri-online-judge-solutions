@@ -12,8 +12,8 @@ int main() {
         cout << "Impossivel calcular\n";
     }
     else {
-        double root1 = ((-b) + sqrt(delta)) / (2*a);
-        double root2 = ((-b) - sqrt(delta)) / (2*a);
+        double root1 = ((-b) + sqrt(delta)) / (2 * a);
+        double root2 = ((-b) - sqrt(delta)) / (2 * a);
 
         printf("R1 = %.5lf\nR2 = %.5lf\n", root1, root2);
     }

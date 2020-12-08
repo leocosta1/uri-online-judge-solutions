@@ -7,7 +7,7 @@ int main() {
     int age[3] = {0};
     cin >> n;
 
-    for(int i=0; i<3; i++) {
+    for(int i = 0; i < 3; i++) {
         age[i] = n / a[i];
         n -= age[i] * a[i];
     }

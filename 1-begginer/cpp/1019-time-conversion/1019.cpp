@@ -7,7 +7,7 @@ int main() {
     int time[3] = {0};
     cin >> n;
 
-    for(int i=0; i<3; i++) {
+    for(int i = 0; i < 3; i++) {
         time[i] = n / a[i];
         n -= time[i] * a[i];
     }

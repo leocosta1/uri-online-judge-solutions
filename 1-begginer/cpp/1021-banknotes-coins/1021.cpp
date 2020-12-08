@@ -2,10 +2,10 @@
 using namespace std;
 
 int main() {
-    double valor;                       // Entrada do Usuário
-    int a[] = {100, 50, 20, 10, 5, 2};  // Array Notas
-    int b[] = {50, 25, 10, 5, 1};       // Array Moedas
-    int notas, moedas, c;               // Qtde. Notas e Moedas + Variável Auxiliar
+    double valor;                         // Entrada do Usuário
+    int a[] = {100, 50, 20, 10, 5, 2};    // Array Notas
+    int b[] = {50, 25, 10, 5, 1};         // Array Moedas
+    int notas, moedas, c;                 // Qtde. Notas e Moedas + Variável Auxiliar
 
     // Entrada do valor | Converter para inteiro
     cin >> valor;
