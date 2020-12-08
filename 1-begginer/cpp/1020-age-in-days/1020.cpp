@@ -12,7 +12,7 @@ int main() {
         n -= age[i] * a[i];
     }
 
-    printf("%i ano(s)\n%i mes(es)\n%i dia(s)\n", age[0], age[1], age[2]);
+    printf("%d ano(s)\n%d mes(es)\n%d dia(s)\n", age[0], age[1], age[2]);
 
     return 0;
 }

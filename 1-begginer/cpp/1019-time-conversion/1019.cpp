@@ -12,7 +12,7 @@ int main() {
         n -= time[i] * a[i];
     }
 
-    printf("%i:%i:%i\n", time[0], time[1], time[2]);
+    printf("%d:%d:%d\n", time[0], time[1], time[2]);
 
     return 0;
 }

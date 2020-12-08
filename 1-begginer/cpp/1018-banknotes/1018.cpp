@@ -9,7 +9,7 @@ int main() {
 
     cout << a << endl;
     for(int i = 0; i < 7; i++) {
-        printf("%i nota(s) de R$ %i,00\n", a / notas[i], notas[i]);
+        printf("%d nota(s) de R$ %d,00\n", a / notas[i], notas[i]);
         a -= (notas[i] * (a / notas[i]));
     }
 

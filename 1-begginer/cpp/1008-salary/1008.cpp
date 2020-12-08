@@ -11,7 +11,7 @@ int main() {
 
     double salary = workTime * moneyHour;
 
-    printf("NUMBER = %i\n", number);
+    printf("NUMBER = %d\n", number);
     printf("SALARY = U$ %.2lf\n", salary);
 
     return 0;
